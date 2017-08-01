@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media screen and (max-width: 768px) {
+  .container-wrap {
+    width: 100%;
+  }
+}
+
+.fh5co-nav {
+	padding:0 0 0 0;
+  margin: 5em 0 0 0;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-nav {
+    margin: 0;
+  }
+}
+.fh5co-nav .top-menu {
+  padding: 34px 30px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-nav .top-menu {
+    padding: 28px 1em;
+  }
+}
+
+.main-wrap{
+	 margin: 0 auto;
+position: relative;
+  width: 970px;
+  height:500px;
+  background:url(../images/img_bg_6.jpg) no-repeat center; 
+}
+
+.main-wrap1{
+	 margin: 0 0 0 13em;
+position: relative;
+  width: 970px;
+  height:500px;
+  background:url(../images/img_bg_8.jpg) no-repeat center; 
+}
+
+.fh5co-nav {
+  margin: 0 0 0 0;
+}
+.slider-text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  min-height: 700px;
+  padding: 2em;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.main-wrap .slider-text-inner h1{
+	margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color: rgba(102, 211, 126, 0.8);
+  font-family: "Oxygen", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
+    font-size: 28px;
+  }
+}
+.col-md-5{
+	width:400px;
+position:relative;
+min-height:1px;
+padding-left:15px;
+padding-right:15px;
+float: left;
+}
+.col-md-1{
+	background:url(../images/img_bg_10.png) no-repeat center;
+	width:250px;
+	height:270px;
+	margin:70px 0 0 330px;
+	
+}
+form.login{
+	margin-left:auto;
+    margin-right:auto;
+    width: 343px;
+    height: 310px;
+    padding:30px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+form.register{
+	margin-left:auto;
+    margin-right:auto;
+    width: 343px;
+    height: 390px;
+    padding:10px 0 0 32px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+form.send_email{
+	margin-left:auto;
+    margin-right:auto;
+	margin-top:40px;
+    width: 343px;
+    height: 180px;
+    padding:10px 0 0 32px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+
+.btn btn-warning btn-block btn-lg{
+background:#0F6;
+}
+.login_btn{
+	width:276px;
+	height:40px;
+	background:#66d37e;
+	color:#FFF;
+	font-size:20px;
+	font-family: "Source Sans Pro", sans-serif;
+	border:hidden;
+	box-shadow: 0 0 2px 2px rgba(102,211,126,.3);
+}
+
+.login_btn1{
+	width:120px;
+	height:35px;
+	background:#66d37e;
+	color:#FFF;
+	font-size:15px;
+	font-family: "Source Sans Pro", sans-serif;
+	border:hidden;
+	box-shadow: 0 0 2px 2px rgba(102,211,126,.3);
+}
+
+.fh5co-nav #fh5co-logo {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.fh5co-nav #fh5co-logo a span {
+  color: #66D37E;
+}
+.fh5co-nav a {
+  padding: 5px 10px;
+  color: #000;
+}
+input.input-lg{
+	
+	   background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
+	  padding-left:45px;
+	  margin-top:20px;
+}
+
+input {
+    width: 276px;
+    height: 35px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:30px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+::-webkit-input-placeholder {
+	  color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {  
+	  color: #fff; 
+}
+.fh5co-logo a {
+	font-size:30px;
+}
+.form-group last1{
+margin:0 0 0 0;
+}
+.goto_login{
+margin:0 0 0 140px;
+}
+
+/*-------------------footer------------------------*/
+#footer{
+width:970px;
+height:41px;
+margin: 0 auto;
+clear:both;
+font-size:11px;
+background-color:#f2efef;
+border-top:1px #eeabbd dashed;
+}
+ul.footer_menu {
+list-style:none; float:right; display:block; width:280px;
+margin:0px; padding:9px 40px 0 0px;
+}
+
+ul.footer_menu li {
+display:inline; font-size:11px;}
+
+a.nav_footer:link, a.nav_footer:visited {
+display:block; float:left; padding:5px 6px 5px 10px; margin:0; 
+text-decoration:none; color:#2F2626;}
+
+a.nav_footer:hover {
+display:block; float:left; padding:5px 6px 5px 10px; margin:0;
+text-decoration:underline; color:#2F2626;}
+
+a.nav_footer:active {
+display:block; float:left; padding:5px 6px 5px 10px; margin:0;
+text-decoration:none;  color:#2F2626;}
+
+#copyright{
+float:right; display:block; width:300px;
+margin:0px; padding:4px 0px 0 0px;
+}
+
+.main-footer{background:#fff;padding:15px;color:#444;border-top:1px solid #d2d6de;border-top-color:#d2d6de}
